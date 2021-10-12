@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="passWord" value="Kaushiks24"/>
+    <parameter name="firstname" value="kaushik"/>
+    <parameter name="cctype" value="VISA"/>
+    <parameter name="nRooms" value="2"/>
+    <parameter name="cvvnum" value="1234"/>
+    <parameter name="adults" value="3"/>
+    <parameter name="ccnum" value="9874563217894561"/>
+    <parameter name="expyear" value="2022"/>
+    <parameter name="billingaddr" value="perambur,chennai"/>
+    <parameter name="userName" value="kaushiks24"/>
+    <parameter name="type" value="Double"/>
+    <parameter name="lastname" value="s"/>
+    <parameter name="checkIn" value="04/12/2021"/>
+    <parameter name="children" value="2"/>
+    <parameter name="expmonth" value="3"/>
+    <parameter name="hotel" value="Hotel Sunshine"/>
+    <parameter name="location" value="Melbourne"/>
+    <parameter name="checkOut" value="04/15/2021"/>
+    <classes>
+      <class name="com.org.ClassA">
+        <methods>
+          <include name="tc1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.org.ClassA -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
